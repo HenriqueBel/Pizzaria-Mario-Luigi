@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.img-enfeite1 {
+
+    height: 150px;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.img-enfeite2 {
+
+    height: 200px;
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    background-color: green;
+    border-radius: 50px;
+}
+
+
+.img-enfeite3 {
+
+    height: 150px;
+    position: absolute;
+    top: 100%;
+    left: 7%;
+    border-radius: 500px;
+}
+
+.img-enfeite4 {
+
+    height: 200px;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    border-radius: 20px;
+}
+
+.foto-topo {
+
+
+    margin: 2%;
+    border-radius: 20px;
+    width: 1350px;
+    height: 300px;
+
+
+
+
+}
+
+
+
+.informacao {
+    box-sizing: border-box;
+    background-color: rgb(219, 226, 226);
+    position: absolute;
+    right: 23%;
+    border-radius: 5PX;
+    margin-top: 110%;
+    width: 24vw;
+
+}
+
+
+.sabores1 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    margin: 10px;
+    position: absolute;
+    right: 40%;
+    width: 300px;
+    list-style-type: none;
+    line-height: 25px;
+
+
+
+
+
+}
+
+.sabores2 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    margin: 10px;
+    position: absolute;
+    right: 20%;
+    width: 300px;
+    list-style-type: none;
+    line-height: 25px;
+
+}
+
+.doces {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin: 10px;
+    position: absolute;
+    top: 1003px;
+    left: 5%;
+    line-height: 25px;
+    background-color: rgb(240, 14, 14);
+    color: white;
+    border-radius: 5px;
+
+
+
+}
+
+.sabores3 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: absolute;
+    top: 1040px;
+    right: 20%;
+    list-style-type: none;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.salgado {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin: 0;
+    position: absolute;
+    left: 33%;
+    top: 54%;
+    background-color: rgb(243, 10, 10);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.button {
+
+    cursor: pointer;
+    position: absolute;
+    right: 23%;
+    top: 256%;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    opacity: 0.6;
+}
+
+button:hover {
+
+    opacity: 0.9;
+}
+
+
+
+.titulo {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    color: rgb(226, 19, 19);
+    text-align: center;
+    font-size: 45px;
+    margin-top: 0;
+    background-color: white;
+    font-size: 55px;
+    border-radius: 20px;
+
+}
+
+.sub-titulo {
+    position: absolute;
+    top: 43%;
+    right: 35%;
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 13px;
+
+}
+
+.cartao {
+
+    margin-left: 3%;
+
+}
+
+.bandeira {
+
+    width: 300px;
+    position: absolute;
+    left: 3%;
+
+}
+
+.pizzas {
+
+    background-color: green;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.pizzas2 {
+
+    background-color: red;
+    height: 100px;
+    border-radius: 15px;
+
+}
+
+.pizzas3 {
+
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+.pizzas4 {
+
+    background-color: red;
+    color: black;
+    height: 100px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+@media screen and (max-width: 430px) {
+
+    .foto-topo {
+
+        width: 392px;
+
+    }
+
+    .titulo {
+
+        font-size: 25px;
+        top: 15%;
+        left: 21%;
+        width: 230px;
+        height: 65px;
+
+    }
+
+    .sub-titulo {
+
+        font-size: 20px;
+        width: 411px;
+        left: 8px;
+        top: 33%;
+
+    }
+
+    .sabores1 {
+
+        font-size: 11px;
+        width: 120px;
+        left: 0;
+        margin: 8PX;
+        top: 41%;
+
+
+    }
+
+    .sabores2 {
+
+        font-size: 11px;
+        width: 120px;
+        left: 25%;
+        top: 41%;
+
+    }
+
+    .sabores3 {
+
+        font-size: 11px;
+        right: -37%;
+        top: 1058px;
+
+    }
+
+    .pizzas3 {
+
+        width: 120px;
+
+    }
+
+    .pizzas4 {
+
+        width: 120px;
+
+    }
+
+    .salgado {
+
+        font-size: 18px;
+        left: 5%;
+        top: 40%;
+
+    }
+
+    .doces {
+
+        font-size: 16px;
+        top: 1019px;
+        left: 29%;
+        width: 110px;
+
+    }
+
+    .bandeira {
+
+        width: 230px;
+        top: 2045px;
+        left: 36%;
+
+    }
+
+    .cartao {
+
+        font-size: 11px;
+        position: relative;
+        top: 1638px;
+        left: 40%;
+
+    }
+
+    .img-enfeite1 {
+
+        top: 46%;
+        left: 74%;
+        height: 90px;
+
+    }
+
+    .img-enfeite2 {
+
+        top: 62%;
+        left: 72%;
+        height: 90px;
+
+    }
+
+    .img-enfeite3 {
+
+        top: 78%;
+        left: 73%;
+        height: 90px;
+        width: 95px;
+
+    }
+
+    .img-enfeite4 {
+
+        top: 96%;
+        left: 74%;
+        height: 90px;
+        width: 87px
+    }
+
+
+    .informacao {
+
+        position: relative;
+        top: 1593px;
+        left: 36%;
+        width: 213px;
+        margin: 0;
+
+    }
+
+    .button {
+
+        top: 218%;
+        right: 15%;
+    }
+
+}
+
